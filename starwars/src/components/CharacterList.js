@@ -5,7 +5,7 @@ const CharacterList = props => {
     console.log("Character List:", props);
     return (
         <div className="character-list">
-            <Character />
+
         </div>
     );
 };

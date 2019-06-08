@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import CharacterList from './components/CharacterList';
+import CharacterFetch from './components/CharacterFetch';
 
 class App extends Component {
   constructor() {
@@ -34,7 +34,7 @@ class App extends Component {
     return (
       <div className="App">
         <h1 className="Header">React Wars</h1>
-        <CharacterList characters={this.state.starwarsChars} fetch={this.getCharacters} mount={this.componentDidMount}/>
+        <CharacterFetch characters={this.state.starwarsChars} fetch={this.getCharacters} mount={this.componentDidMount}/>
       </div>
     );
   }

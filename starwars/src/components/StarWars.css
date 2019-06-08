@@ -1,0 +1,26 @@
+.character-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.character {
+    color: black;
+    font-size: 62.5%;
+    background-color: rgba(250, 250, 250, .4);
+    border-radius: 5px;
+    width: 400px;
+    margin: 10px auto;
+    padding: 5px 5px;
+}
+
+h2 {
+    font-size: 1.3rem;
+    text-decoration: underline;
+}
+
+li {
+    text-align: left;
+    font-size: 1rem;
+    line-height: 1.2rem;
+}
